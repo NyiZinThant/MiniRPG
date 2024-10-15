@@ -12,7 +12,7 @@ This is a text-based mini-RPG game developed in Java. It allows players to play 
 2. Navigate to the Jar file location 
 3. Compile and run the game using:
    ```terminal
-   javac src/com/steven/rpg/*.java
+   java -jar MiniRPG.jar
    ```
 ## Usage
 - Start the game and enter your character name.
