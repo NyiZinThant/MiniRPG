@@ -1,6 +1,5 @@
 package com.steven.rpg;
 
-import java.rmi.server.ExportException;
 import java.util.Scanner;
 
 public class ConsoleV1 implements Console{

@@ -52,11 +52,11 @@ public class GameEngineV1 implements GameEngine{
                 console.printLine();
                 currentGame.removeFirst();
                 if(currentGame.isEmpty()){
-                    break outerLoop;
+                    break;
                 }
                 currentEnemy = currentGame.getFirst();
                 processDefeatOutcome(player);
-            };
+            }
             console.showHUD(player, currentEnemy, currentGameLevel + 1, currentGame.size());
             console.showOptions(playerActions);
             // user actions

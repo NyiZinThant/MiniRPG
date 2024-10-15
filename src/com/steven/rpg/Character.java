@@ -95,6 +95,9 @@ public abstract class Character{
     public void setLevel(int level) {
         this.level = level;
     }
+    public void setTotalHp(int totalHp) {
+        this.totalHp = totalHp;
+    }
     public int getAttackPoint() {
         return attackPoint;
     }
@@ -113,14 +116,8 @@ public abstract class Character{
     public int getTotalHp() {
         return totalHp;
     }
-    public void setTotalHp(int totalHp) {
-        this.totalHp = totalHp;
-    }
     public int getCurrentHp() {
         return currentHp;
-    }
-    public void setCurrentHp(int currentHp) {
-        this.currentHp = currentHp;
     }
     public String getName() {
         return name;

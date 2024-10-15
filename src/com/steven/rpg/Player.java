@@ -7,6 +7,8 @@ public class Player extends Character{
     }
     private void levelUp(){
         setLevel(getLevel() + 1);
+        setTotalHp(getTotalHp() + 3);
+        resetHp();
     }
     public int addExp(int exp) {
         this.exp += exp;
